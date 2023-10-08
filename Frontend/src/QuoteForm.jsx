@@ -32,6 +32,7 @@ export default function QuoteForm({ onNewQuote }) {
         </div>
         <button
           type="submit" // Change to submit if it's meant to submit a form.
+          disabled={!quote.trim()}
           className="rounded-md bg-white mt-4 px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:outline-none active:bg-gray-100"
         >
           Submit
