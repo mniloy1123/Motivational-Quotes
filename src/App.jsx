@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './App.css'
-import Home from './Home'
-import Navbar from './Navbar'
-import QuoteForm from './QuoteForm'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./Home";
+import Navbar from "./Navbar";
+import QuoteForm from "./QuoteForm";
 
 function App() {
   return (
@@ -14,8 +14,9 @@ function App() {
           <Route path="/input" element={<QuoteForm />} />
         </Routes>
       </Router>
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
